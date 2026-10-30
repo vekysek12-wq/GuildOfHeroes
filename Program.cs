@@ -2,8 +2,6 @@
 // Hero anastasia = new Hero("Анастасия", 90);
 // Hero artem = new Hero("Артём", 120);
 
-// yaroslav.Heal = 75;
-
 // Console.WriteLine(">>> Герой 1 <<<");
 // Console.WriteLine($"Имя: {yaroslav.Name}");
 // Console.WriteLine($"Здоровье: {yaroslav.Heal}");
@@ -26,12 +24,29 @@
 // Console.WriteLine($"Уровень: {artem.Lvl}");
 // Console.WriteLine($"Опыт: {artem.Exp}");
 
-//самостоятельная
 
-Game gta = new Game();
+Game q = new Game("qq");
+Game w = new Game("ww");
+Game e = new Game("ee");
 
-Console.WriteLine(">>> Герой <<<");
-Console.WriteLine($"Имя: {gta.название}");
-Console.WriteLine($"Здоровье: {gta.жанр}");
-Console.WriteLine($"Уровень: {gta.год_выхода}");
-Console.WriteLine($"Опыт: {gta.рейтинг}");
+Console.WriteLine(">>> 1 <<<");
+Console.WriteLine($"название: {q.Name}");
+Console.WriteLine($"жанр: {q.Sh}");
+Console.WriteLine($"год выхода: {q.age}");
+Console.WriteLine($"рейтинг: {q.P}");
+
+Console.WriteLine();
+
+Console.WriteLine(">>> 2 <<<");
+Console.WriteLine($"название: {w.Name}");
+Console.WriteLine($"жанр: {w.Sh}");
+Console.WriteLine($"год выхода: {w.age}");
+Console.WriteLine($"рейтинг: {w.P}");
+
+Console.WriteLine();
+
+Console.WriteLine(">>> 3 <<<");
+Console.WriteLine($"название: {e.Name}");
+Console.WriteLine($"жанр: {e.Sh}");
+Console.WriteLine($"год выхода: {e.age}");
+Console.WriteLine($"рейтинг: {e.P}");

@@ -1,12 +1,15 @@
-public class Game {
-  public string название;
-  public string жанр;
-  public int год_выхода;
-  public double рейтинг;
+public class Game
+{
+    public string Name;
+    public string Sh;
+    public int age;
+    public double P;
 
-  public Game(string Название, int Жанр,int Год_выхода, double Рейтинг ) {
-    название = Название;
-    жанр = Жанр;
-    год_выхода = Год_выхода;
-
-  }
+    public Game(string name)
+    {
+        Name = name;
+        Sh = "rrr";
+        age = 1;
+        P = 0.1;
+    }
+}
