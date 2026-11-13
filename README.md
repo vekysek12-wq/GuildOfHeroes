@@ -46,5 +46,5 @@ Sh = "rrr", age = 1, P = 0.1 — эти значения задаются вну
 
 ![Результат](img/image1.png)
 
-![Git](img/)
+![Git](img/image2.png)
 
